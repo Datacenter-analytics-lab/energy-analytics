@@ -196,8 +196,7 @@ Raising the cooling supply setpoint from 18°C to 22°C would bring PUE to 1.46 
 | Cooling N+1 Headroom | 74.4 kWth (thermal) | ~69.5 kW |
 | Binding Constraint | **Cooling** | — |
 
-The three headrooms are measured in different quantities — facility kW, UPS output kW, and kWth of heat. Comparing them directly would be misleading, so each is also expressed as the additional IT load it would absorb, using the conversion factors detailed in [§9](#capacity-planning--decisions). The ranking is unchanged (cooling binds first), but the gap between cooling and electrical is narrower than the raw figures suggest.
-
+Where each margin is measured. The three headroom figures are not directly comparable, because each subsystem sits at a different point in the power chain. Electrical headroom (117.7 kW) is the gap between transformer capacity and total facility power at the meter, which includes cooling, UPS losses and auxiliaries. UPS headroom (144.4 kW) is measured at the UPS output, which carries IT load only. Cooling headroom (74.4 kWth) is thermal, not electrical. Expressed as the additional IT load each subsystem can still absorb, the ranking is cooling ~69.5 kW, electrical ~84.7 kW, UPS ~144 kW. That conversion, not the raw figures, is what makes cooling the binding constraint. See §9
 ![Capacity constraint](figures/05_capacity_constraint.png)
 
 ### Peak Energy Balance
