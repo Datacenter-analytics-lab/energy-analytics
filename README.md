@@ -248,7 +248,7 @@ Using the `DIM_Scenario` table (§5), remaining headroom at each subsystem is qu
 | +80 kW | −11.2 kWth | 64.4 kW | 6.5 kW | Cooling | Not recommended |
 | +100 kW | −32.6 kWth | 44.4 kW | **−21.3 kW** | Cooling | Not recommended |
 
-The exact tipping point sits at **~69.5 kW** — 70 kW itself already crosses it, by a margin so thin (−0.5 kWth) it's effectively the boundary, not a comfortable cutoff.
+The exact tipping point for cooling sits at **~69.5 kW** — 70 kW itself already crosses it, by a margin so thin (−0.5 kWth) it's effectively the boundary, not a comfortable cutoff.
 
 *Why each added kW of IT load costs more than 1 kW of headroom, and why the cost differs per subsystem:*
 - *UPS headroom tracks IT load 1:1 — the UPS carries IT load only.*
